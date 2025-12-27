@@ -6,6 +6,23 @@ body {
   padding-top: 56px;
 }
 
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 1000;
+}
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+  color: #fff;
+}
+
 .index-header {
   min-height: 95vh;
   background-image: url("../../img/img-header-portfolio.jpg");
