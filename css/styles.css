@@ -18,6 +18,7 @@ body {
   font-weight: bold;
   z-index: 1000;
 }
+
 .whatsapp-btn:hover {
   background-color: #1ebe5d;
   color: #fff;
@@ -35,12 +36,14 @@ body {
   align-items: center;
   text-align: center;
 }
+
 .index-header::before {
   content: "";
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .index-header .header-content {
   position: relative;
   z-index: 1;
